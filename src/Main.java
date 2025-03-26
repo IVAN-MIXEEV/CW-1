@@ -8,7 +8,7 @@ public class Main {
         employeeBook.setEmployees(new Employee("Ксения", "Воронова", "Николаевна", 5, 18_000, 5));
         employeeBook.setEmployees(new Employee("Всеволод", "Маркелов", "Владиславович", 1, 20_000, 6));
         employeeBook.setEmployees(new Employee("Кирилл", "Киличев", "Игоревич", 2, 22_000, 7));
-        employeeBook.changeSalary("Конор", 50_000);
+        employeeBook.changeSalary("Конор", 50000);
         employeeBook.changeDepartment("Конор", 4);
         employeeBook.printEmployeeByDepartment();
         employeeBook.printEmployee();

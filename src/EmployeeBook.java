@@ -9,7 +9,7 @@ public class EmployeeBook {
 
     public void printEmployeeByDepartment() {
         for (int j = 0; j < employees.length && employees[j] != null; j++) {
-            int i = 1;
+            int i = 1 ;
             if (employees[j].getDepartment() == i) {
                 System.out.println(employees[j]);
             }
